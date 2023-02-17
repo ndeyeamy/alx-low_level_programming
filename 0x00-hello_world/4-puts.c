@@ -1,5 +1,6 @@
 #include<stdio.h>
- /** Ceci est un commentaire en C
+ /**
+  * Ceci est un commentaire en C
   * écrit sur plusieurs ligne
   */
 int main(void)/*fonction main*/
