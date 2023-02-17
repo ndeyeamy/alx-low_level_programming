@@ -5,6 +5,7 @@
   */
 int main(void)
 {
+	/*testede fonction*/
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 	puts(Mystr);
 	return (0);
