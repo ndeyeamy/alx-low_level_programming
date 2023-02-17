@@ -1,8 +1,8 @@
 #include<stdio.h>
-/* Ceci est un commentaire en C
- * écrit sur plusieurs ligne
- */
-int main(void)
+ /* Ceci est un commentaire en C
+  * écrit sur plusieurs ligne
+  */
+int main(void)/*fonction main*/
 {/*fonction main*/
 char Mystr[] = "\"Programming is like building a multilingual puzzle";
 puts(Mystr);
