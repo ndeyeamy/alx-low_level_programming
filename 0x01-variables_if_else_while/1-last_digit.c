@@ -6,6 +6,11 @@
  * if the last digit of n is 0: the string and is 0
  * if the last digit of n is less than 6 and not 0
  */
+/**
+ * main - Entry point
+ * Description: checks on the last digit of the assigned var
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n, m;
