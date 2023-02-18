@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+	/* betty style doc for function main goes there */
 	int n;
 
 	srand(time(0));
@@ -19,7 +20,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", n);
 	}
