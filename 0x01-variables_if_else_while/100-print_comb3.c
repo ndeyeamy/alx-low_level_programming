@@ -14,9 +14,11 @@ int main(void)
 
 		for( k = j + 1; k <= 9; ++k)
 		{
-			printf("%d%d ", j, k);
+			printf("%d%d", j, k);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
