@@ -1,22 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Description: The two digits must be different
- * eturn: Always 0 (success)
+ * main - Entyr point
+ * Description: prints two digits combination
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int j, k;
+	int c, i;
 
-	for( j = 0 ; j <= 8; ++j)
+	for (c = '0'; c <= '9'; c++)
 	{
-
-		for( k = j + 1; k <= 9; ++k)
+		for (i = '0'; i <= '9'; i++)
 		{
-			printf("%d%d", j, k);
-			putchar(',');
-			putchar(' ');
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
