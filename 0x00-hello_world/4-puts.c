@@ -1,9 +1,8 @@
-#include<stdio.h>
-/*
+#include <stdio.h>
+/**
  * main - Entry point
- * Use the function puts
- * not allowed to use printf
- * program should end with the value 0
+ * Description: 'print Programming is like building a multilingual puzzle'
+ * Return: Always 0 (Success)
  */
 
 int main(void)
