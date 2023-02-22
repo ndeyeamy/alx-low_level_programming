@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print the lphabet in lowercase
+ * print_alphabet - print the lphabet in lowercase
  *
  * Description: 'the program's description is print_alphabet'
  *

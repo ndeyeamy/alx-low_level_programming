@@ -5,9 +5,9 @@
  * Description: prints the alphabet in lowercase\n
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int ch;
+       	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
