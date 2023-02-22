@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - print_alphabet
  *
  * Return: Always returns 0
  *
