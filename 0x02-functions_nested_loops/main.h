@@ -46,4 +46,8 @@ int print_last_digit(int n);
 /**
  * print_last_digit - gives modulo
  */
+void jack_bauer(void);
+/**
+ * jack_bauer -  print every second 
+ */
 #endif
