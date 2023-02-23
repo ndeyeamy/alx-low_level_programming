@@ -42,4 +42,8 @@ int _abs(int);
 /**
  * _abs - gives absolute value
  */
+int print_last_digit(int n);
+/**
+ * print_last_digit - gives modulo
+ */
 #endif
