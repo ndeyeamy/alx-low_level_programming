@@ -38,5 +38,8 @@ int print_sign(int n);
 /**
  * _abs - gives absolute value
  */
-
+int _abs(int);
+/**
+ * _abs - gives absolute value
+ */
 #endif
