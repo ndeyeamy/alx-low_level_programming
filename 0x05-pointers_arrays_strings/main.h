@@ -9,18 +9,21 @@
 int _putchar(char c);
 /**
  * reset - function toreset to 98
- *
+ * @n: parameter
  *
  */
 void reset_to_98(int *n);
 /**
- * print_alphabet_x10 - prints alphabet 10 times
- *
+ * swap_int - prints if c is lower case
+ * @a: character to use
+ * @b: chararter 
+ * Return: 1 or 0
  */
-void print_alphabet_x10(void);
+void swap_int(int *a, int *b);
 /**
- * _islower - prints if c is lower case
- * @c: character to use
+ * swap_int - prints if c is lower case
+ * @a: character to use
+ * @b: chararter 
  * Return: 1 or 0
  */
 int _islower(int c);
