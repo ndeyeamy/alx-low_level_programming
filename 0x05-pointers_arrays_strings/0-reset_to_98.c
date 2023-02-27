@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - eset the int
- * @parameter: int n
- * Return: Always 0.
+ * reset_to_98 - Entry point
+ * Description: 'the program take apointer int and give 98 in output'
+ * Return: Always 0 (Success)
  */
 void reset_to_98(int *n)
 {
