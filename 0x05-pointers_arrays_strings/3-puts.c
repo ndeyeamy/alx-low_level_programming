@@ -2,10 +2,10 @@
 
 /**
  * _puts - print a char
- * @str
+ * @str - variable of entry
  * Return: Always 0 (Success)
  */
-int _puts(char *str)
+	int _puts(char *str)
 {
 	while (*str)
 	{
