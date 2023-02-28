@@ -2,11 +2,11 @@
 #define MAIN_H
 
 /**
- * _putchar - writes the character c to std
- * @c: parameter to compare
+ * _strlen - writes the character c to std
+ * @s: parameter to compare
  * Return: 1 or 0
  */
-int _putchar(char c);
+int _strlen(char *s);
 /**
  * reset - function toreset to 98
  * @n: parameter
@@ -21,12 +21,11 @@ void reset_to_98(int *n);
  */
 void swap_int(int *a, int *b);
 /**
- * swap_int - prints if c is lower case
- * @a: character to use
- * @b: chararter 
- * Return: 1 or 0
+ * _puts - put an char
+ * @str: character to use 
+ * Return: 0
  */
-int _islower(int c);
+int _puts(char *str);
 /**
  * _isalpha - prints if character is alphabet
  * @c: character to use
@@ -38,4 +37,10 @@ int _isalpha(int c);
  * @n: integer to input
  * Return: 1 or 0  or -1
  */
+/**
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
 #endif
