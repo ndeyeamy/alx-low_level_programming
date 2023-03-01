@@ -2,11 +2,9 @@
 #include <string.h>
 
 /**
- * main - Entry point
- * 
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * 
+ * print_rev - Entry point
+ * Description: 'the program'sput the reverse word'
+ * @s: describe the parameter
  * Return: Always 0 (Success)
  */
 int print_rev(char *s)
