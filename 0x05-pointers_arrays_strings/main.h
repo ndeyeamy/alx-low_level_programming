@@ -43,4 +43,10 @@ int _isalpha(int c);
  * Return: 1 or 0
  */
 int _putchar(char c);
+/**
+ * print_rev - put an char
+ * @s: character to use
+ * Return: 0
+ */
+void print_rev(char *s);
 #endif
