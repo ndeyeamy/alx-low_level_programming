@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * main - check the code
- *
+ * puts2 - check the code
+ * @str: parameter ointer
  * Return: Always 0.
  */
 void puts2(char *str)
