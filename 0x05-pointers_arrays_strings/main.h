@@ -48,5 +48,17 @@ int _putchar(char c);
  * @s: character to use
  * Return: 0
  */
-void print_rev(char *s);
+void rev_string(char *s);
+/**
+ * puts2 - put an char
+ * @str: character to use
+ * Return: 0
+ */
+void puts2(char *str);
+/**
+ * puts_half - put an char
+ * @str: character to use
+ * Return: 0
+ */
+void puts_half(char *str);
 #endif
