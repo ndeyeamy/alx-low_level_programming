@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * main - check the code
+ * rev_string - check the code
  * @s: parameters
  * Return: Always 0.
  */
