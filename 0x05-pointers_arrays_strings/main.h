@@ -68,4 +68,11 @@ void puts_half(char *str);
  * Return: 0
  */
 void print_array(int *a, int n);
+/**
+ * *_strcpy - put an char
+ * @dest: character to use
+ * @src: another int
+ * Return: 0
+ */
+char *_strcpy(char *dest, char *src);
 #endif
