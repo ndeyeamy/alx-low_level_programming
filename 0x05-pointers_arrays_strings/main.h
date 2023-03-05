@@ -61,4 +61,11 @@ void puts2(char *str);
  * Return: 0
  */
 void puts_half(char *str);
+/**
+ * print_array - put an char
+ * @a: character to use
+ * @n: another int
+ * Return: 0
+ */
+void print_array(int *a, int n);
 #endif
