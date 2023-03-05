@@ -75,4 +75,10 @@ void print_array(int *a, int n);
  * Return: 0
  */
 char *_strcpy(char *dest, char *src);
+/**
+ * *_atoi - put an char
+ * @s: character to use
+ * Return: 0
+ */
+int _atoi(char *s);
 #endif
