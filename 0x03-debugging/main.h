@@ -50,7 +50,7 @@ void jack_bauer(void);
 /**
  * jack_bauer -  print every second 
  */
-int positive_or_negative(int);
+int positive_or_negative(int i);
 
 int largest_number(int a, int b, int c);
 
