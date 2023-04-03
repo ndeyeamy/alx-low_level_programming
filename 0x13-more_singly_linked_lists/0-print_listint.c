@@ -4,12 +4,9 @@
 #include "lists.h"
 
 /**
- * struct listint_s - singly linked list
+ * print_listint - Prints all the elements of a listint_t list
  * @h: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
