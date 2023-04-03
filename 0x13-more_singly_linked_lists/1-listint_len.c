@@ -3,7 +3,7 @@
 
 /**
  * listint_len - the number of element in singly linked list
- * @h: integer
+ * @h: A pointer to the head of the listint_t list
  * Return: returns the number of elements in a linked list. 
  */
 size_t listint_len(const listint_t *h)
