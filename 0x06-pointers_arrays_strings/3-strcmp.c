@@ -1,4 +1,8 @@
-#include "holberton.h"
+/*
+ * File: 3-strcmp.c
+ */
+
+#include "main.h"
 
 /**
  * _strcmp - Compares pointers to two strings.
